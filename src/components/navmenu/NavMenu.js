@@ -18,7 +18,7 @@ const NavMenu = () => {
                     {/* cart button */}
                     <button
                         type="button"
-                        className='shopping-cart-btn float-right text-left w-20 ml-6 relative top-1/2 bg-transparent cursor-pointer -translate-x-1/2 justify-center'>
+                        className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 justify-center relative'>
                         {/* <IoSearchOutline /> */}
                         <IoBagOutline/>
                         <span>0</span>
