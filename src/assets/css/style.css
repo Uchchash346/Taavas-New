@@ -1,0 +1,7 @@
+
+
+.animated-pulse{
+    /* background: #f7f7f7; */
+    animation: pulse 3s linear infinite;
+    border: 1px solid #ffffff;
+}
