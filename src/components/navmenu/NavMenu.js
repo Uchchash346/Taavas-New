@@ -1,20 +1,22 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, lazy } from 'react';
 import siteLogo from '../../assets/img/logo.png'
 import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 import { AiOutlineUser } from "react-icons/ai";
+
+const TopBarMenu = lazy(() => import('../navmenu/TopBarMenu.js'));
 
 const NavMenu = () => {
     return (
         <Fragment>
             {/* site logo */}
-            <img src={siteLogo}
-                id="site-logo-white"
-                alt="website logo"
-                className='absolute w-auto max-w-full top-4 left-2/4 -translate-x-2/4 h-auto align-middle inline-block'
-            />
             {/* Top bar container */}
             <div className='top-bar-container bg-transparent opacity-100 relative top-0 h-auto z-10 w-full'>
-                <div className='top-bar opacity-70	top-12 relative w-full h-30 z-10  bg-white'>
+                <img src={siteLogo}
+                    id="site-logo-white"
+                    alt="website logo"
+                    className='absolute w-auto max-w-full top-4 left-2/4 -translate-x-2/4 h-auto align-middle inline-block'
+                />
+                <div className='top-bar opacity-70	top-12 relative w-full h-30 z-10'>
                     {/* cart button */}
                     <button
                         type="button"
@@ -36,6 +38,8 @@ const NavMenu = () => {
                         <IoSearchOutline />
                         <span className='ml-1'>SEARCH</span>
                     </button>
+                    {/* Top bar menu */}
+                    <TopBarMenu />
                 </div>
             </div>
         </Fragment>
