@@ -10,42 +10,32 @@ const NavMenu = () => {
             <img src={siteLogo}
                 id="site-logo-white"
                 alt="website logo"
-                className='absolute w-40 max-w-full top-4 left-2/4 -translate-x-2/4 h-auto align-middle inline-block z-10'
+                className='absolute w-auto max-w-full top-4 left-2/4 -translate-x-2/4 h-auto align-middle inline-block'
             />
             {/* Top bar container */}
             <div className='top-bar-container bg-transparent opacity-100 relative top-0 h-auto z-10 w-full'>
-                <div className='top-bar opacity-70	top-0 relative w-full h-30 z-10  bg-white'>
+                <div className='top-bar opacity-70	top-12 relative w-full h-30 z-10  bg-white'>
                     {/* cart button */}
                     <button
                         type="button"
-                        className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 justify-center relative'>
+                        className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
                         {/* <IoSearchOutline /> */}
-                        <IoBagOutline/>
-                        <span>0</span>
+                        <IoBagOutline />
+                        <span className='ml-1'>0</span>
                     </button>
                     <button
                         type="button"
-                        className='user-menu-btn float-right text-left w-20 ml-6 relative top-1/2 bg-transparent cursor-pointer -translate-x-1/2'>
+                        className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
 
-                        <AiOutlineUser className="before:content-['SIGN_IN']" />
-                        <span className='sign'>SIGN IN</span>
+                        <AiOutlineUser />
+                        <span className='ml-1'>SIGN IN</span>
                     </button>
-                    {/* <button
-                        type="button"
-                        className='main-menu-btn'>
-
-                    </button> */}
                     <button
                         type="button"
-                        className='search-menu-btn block float-right text-left w-20 ml-6 relative top-1/2 bg-transparent cursor-pointer -translate-x-1/2'>
+                        className='search-menu-btn float-right text-left w-20 ml-6 relative top-1/2 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
                         <IoSearchOutline />
-                        <span>SEARCH</span>
+                        <span className='ml-1'>SEARCH</span>
                     </button>
-                    {/* <button
-                        type="button"
-                        className='search-menu-btn-large'>
-
-                    </button> */}
                 </div>
             </div>
         </Fragment>
