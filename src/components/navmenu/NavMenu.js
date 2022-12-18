@@ -10,13 +10,13 @@ const NavMenu = () => {
         <Fragment>
             {/* site logo */}
             {/* Top bar container */}
-            <div className='top-bar-container bg-transparent opacity-100 relative top-0 h-auto z-10 w-full'>
+            <div className='top-bar-container  relative top-0 h-auto z-10 w-full'>
                 <img src={siteLogo}
                     id="site-logo-white"
                     alt="website logo"
                     className='absolute w-auto max-w-full top-4 left-2/4 -translate-x-2/4 h-auto align-middle inline-block'
                 />
-                <div className='top-bar opacity-70	top-12 relative w-full h-30 z-10'>
+                <div className='top-bar top-12 relative w-full h-30 z-10'>
                     {/* cart button */}
                     <button
                         type="button"
