@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
 
 // import images
 import luxuryPanjabi from '../../assets/category_panjabi_images/luxury.webp';
