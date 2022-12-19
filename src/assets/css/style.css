@@ -4,40 +4,14 @@
   border: 1px solid #ffffff;
 }
 
-.top-bar-container1{
-    /* background-image: url('../cover_image/cover_image.webp'); */
-    /* display: inline-block;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    height: 100vh; */
-}
-
-/* .top-cover{
-    background-image: url('../cover_image/cover_image.webp');
-     vertical-align: middle;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    height: 100vh;
-} */
-
-/* img{
-    vertical-align: middle;
-    max-width: 100%;
-} */
-
-.cover-image{
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    height: 900px;
-    padding-top: 50px;
+.cover-image {
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 900px;
+  padding-top: 50px;
 }
 
 .animated-pulse {
@@ -50,3 +24,25 @@
   color: #436e8f;
   line-height: 50px;
 }
+
+/* ==================== 2. CategorySlider Start ==================== */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==================== 2. CategorySlider End ==================== */

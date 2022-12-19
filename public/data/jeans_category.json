@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category_name": "Jeans",
+        "category_image_link": "https://i.ibb.co/8xnhTvq/Premium-Original-Jeans-Collection-original-format-jpeg.webp"
+    },
+    {
+        "id": 2,
+        "category_name": "Jeans",
+        "category_image_link": "https://i.ibb.co/w06tQw1/Platinum-RAW-Jeans-Collection-2134-original-format-jpeg.webp"
+    },
+    {
+        "id": 3,
+        "category_name": "Jeans",
+        "category_image_link": "https://i.ibb.co/mvFCH5X/Platinum-Superior-Jeans-Collection-original-format-jpeg.webp"
+    },
+    {
+        "id": 4,
+        "category_name": "Jeans",
+        "category_image_link": "https://i.ibb.co/gtDt88b/Premium-Superior-Jeans-Collection-original-format-jpeg.webp"
+    }
+]
