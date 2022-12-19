@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category_name": "Premium Jacket",
+        "category_image_link": "https://i.ibb.co/rHJBRjF/Premium-Jacket-Collection-226211-2-original-format-jpeg.jpg"
+    },
+    {
+        "id": 2,
+        "category_name": "Platinum Sweatshirt",
+        "category_image_link": "https://i.ibb.co/t3bbLLd/Platinum-Sweatshirt-228401-2284024-original-format-jpeg.jpg"
+    },
+    {
+        "id": 3,
+        "category_name": "Premium Jacket",
+        "category_image_link": "https://i.ibb.co/ZVFcc5d/Group-226207-226208-4-5-original-format-jpeg.jpg"
+    },
+    {
+        "id": 4,
+        "category_name": "Platinum Vest",
+        "category_image_link": "https://i.ibb.co/VTHNqQr/Platinum-Vest-Collection-228101-22-original-format-jpeg.jpg"
+    }
+]
