@@ -10,7 +10,7 @@ const NavMenu = () => {
         <Fragment>
             <div>
                 {/* Top bar container */}
-                <div className='top-bar-container  relative top-0 h-auto z-10 w-full'>
+                <div className='top-bar-container relative top-0 h-auto z-10 w-full'>
                     {/* site logo */}
                     <img src={siteLogo}
                         id="site-logo-white"
@@ -43,7 +43,6 @@ const NavMenu = () => {
                         <TopBarMenu />
                     </div>
                 </div>
-
             </div>
         </Fragment>
     );

@@ -1,7 +1,52 @@
+/* ==================== 1. CoverImage ==================== */
+.animated-pulse {
+  animation: pulse 3s linear infinite;
+  border: 1px solid #ffffff;
+}
 
+.top-bar-container1{
+    /* background-image: url('../cover_image/cover_image.webp'); */
+    /* display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100vh; */
+}
 
-.animated-pulse{
-    /* background: #f7f7f7; */
-    animation: pulse 3s linear infinite;
-    border: 1px solid #ffffff;
+/* .top-cover{
+    background-image: url('../cover_image/cover_image.webp');
+     vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100vh;
+} */
+
+/* img{
+    vertical-align: middle;
+    max-width: 100%;
+} */
+
+.cover-image{
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 900px;
+    padding-top: 50px;
+}
+
+.animated-pulse {
+  background-color: transparent;
+  height: 50px;
+  border-color: #ffffff;
+}
+
+.pulse-link {
+  color: #436e8f;
+  line-height: 50px;
 }
