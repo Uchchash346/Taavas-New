@@ -46,7 +46,6 @@ const JeansSlider = () => {
                                 </SwiperSlide>
                             </div>
                         ))}
-
                 </Swiper>
             </section>
         </Fragment>
