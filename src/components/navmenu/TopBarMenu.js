@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const TopBarMenu = () => {
     return (
@@ -12,7 +13,11 @@ const TopBarMenu = () => {
                         <button type="" className='cursor-pointer text-sm'> New Arrivals</button>
                     </li>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
-                        <button type="" className='cursor-pointer text-sm'>Clothing</button>
+                        {/* <Link to="/panjabis">
+                        </Link> */}
+                        <a href="/panjabis">
+                            <button type="" className='cursor-pointer text-sm'>Clothing</button>
+                        </a>
                     </li>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
                         <button type="" className='cursor-pointer text-sm'>Footwear</button>
