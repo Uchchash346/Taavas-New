@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Privacy Policy",
+         "urlLink": "privacy-policy"
+    },
+    {
+        "id": 2,
+        "name": "Payment Policy",
+         "urlLink": "payment-policy"
+    },
+    {
+        "id": 3,
+        "name": "Shipping Policy",
+         "urlLink": "shipping-policy"
+    },
+    {
+        "id": 4,
+        "name": "Exchange & Return",
+         "urlLink": "exchange-return"
+    },
+    {
+        "id": 5,
+        "name": "Size Guide",
+         "urlLink": "size-guide"
+    },
+    {
+        "id": 6,
+        "name": "Loyalty Program",
+         "urlLink": "loyalty-program"
+    },
+    {
+        "id": 7,
+        "name": "Terms & Conditions",
+         "urlLink": "/terms-conditions"
+    },
+    {
+        "id": 8,
+        "name": "Display Centers",
+         "urlLink": "/panjabis"
+    },
+    {
+        "id": 9,
+        "name": "About Us",
+         "urlLink": "/about-us"
+    },
+    {
+        "id": 10,
+        "name": "Contact Us",
+         "urlLink": "/contact-us"
+    },
+    {
+        "id": 11,
+        "name": "Intellectual Property",
+         "urlLink": "/intellectual-property"
+    }
+]
