@@ -16,10 +16,6 @@ const ShippingPolicy = () => {
                     </div>
                     <div className='w-5/6'>
                         <h1 className='text-3xl font-bold py-10'>Shipping Policy</h1>
-                        {/*                         
-                        <p className='text-justify'></p>
-                        <p className='font-bold'></p>
-                    */}
                         <p className='text-justify'>
                             Customers can avail themselves of nationwide and worldwide shipping options when ordering online. We process one shipping address per order. If you would like to ship to a different address, you may consider placing separate orders and making payments for them separately. The shipping date depends on your preferred delivery location and delivery type. Please note that for locations Outside Dhaka, you need to collect the delivery items from your nearest courier branch.
                         </p>
