@@ -1,9 +1,10 @@
 import React, { Fragment, lazy, Suspense } from 'react';
-
+import '../../assets/css/style.css'
 
 
 // import pages or components
 const Sidebar = lazy(() => import('../../components/sidebar/Sidebar.js'));
+const DisplayCenter = lazy(() => import('../../components/display_center/DisplayCenter.js'));
 
 const IntellectualProperty = () => {
     return (
@@ -30,6 +31,9 @@ const IntellectualProperty = () => {
                         <br />
                         <p className='text-justify'><span className='font-bold'>Trademark:</span> All emblems, logotypes, service mark, trade dress, button icons, artwork, logos, “ILLIYEEN”, “ILYN”, and anything either they are registered or not but displayed on the website and platforms, including but not limited to the “ILLIYEEN” trademark and all the related brand marks on the website or platform will remain as the exclusive property of “ILLIYEEN”. Such trademarks and signs are discouraged to use with any product or services that do not originate with TAVAAS and TAVAAS's affiliates, which might arise confusion among users, or in any manner discredit the “ILLIYEEN” name and trademark and all the products bearing “ILLIYEEN” trademark. Any unauthorized usage will be handled legally.</p>
                     </div>
+                </div>
+                <div className='py-10'>
+                    <DisplayCenter />
                 </div>
             </Fragment>
         </Suspense>
