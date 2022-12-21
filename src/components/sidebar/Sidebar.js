@@ -9,7 +9,6 @@ const Sidebar = () => {
             .get("/data/sidebar.json")
             .then((res) => setSidebar(res.data))
             .catch((err) => console.log(err))
-
     }, [])
 
     return (
