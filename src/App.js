@@ -10,6 +10,7 @@ const PanjabiProducts = lazy(() => import("./pages/panjabi_products/PanjabiProdu
 const AboutUs = lazy(() => import("./pages/about_us/AboutUs.js"));
 const IntellectualProperty = lazy(() => import("./pages/intellectual_property/IntellectualProperty.js"))
 const TermsConditions = lazy(() => import("./pages/terms_and_conditions/TermsConditions.js"));
+const ShippingPolicy = lazy(() => import("./pages/shipping-policy/ShippingPolicy.js"));
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/intellectual-property' element={<IntellectualProperty />} />
           <Route path='/terms-conditions' element={<TermsConditions />} />
+          <Route path='/shipping-policy' element={<ShippingPolicy />} />
         </Routes>
         <Footer />
       </Fragment>
