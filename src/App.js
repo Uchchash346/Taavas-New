@@ -10,7 +10,7 @@ const PanjabiProducts = lazy(() => import("./pages/panjabi_products/PanjabiProdu
 const AboutUs = lazy(() => import("./pages/about_us/AboutUs.js"));
 const IntellectualProperty = lazy(() => import("./pages/intellectual_property/IntellectualProperty.js"))
 const TermsConditions = lazy(() => import("./pages/terms_and_conditions/TermsConditions.js"));
-const ShippingPolicy = lazy(() => import("./pages/shipping-policy/ShippingPolicy.js"));
+const ShippingPolicy = lazy(() => import("./pages/shipping_policy/ShippingPolicy.js"));
 
 const App = () => {
   return (
