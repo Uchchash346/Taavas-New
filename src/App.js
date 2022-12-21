@@ -1,4 +1,4 @@
-import React, { Fragment, lazy } from 'react';
+import React, { Fragment, lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -11,15 +11,17 @@ const AboutUs = lazy(() => import("./pages/about_us/AboutUs.js"));
 
 const App = () => {
   return (
-    <Fragment>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/panjabis' element={<PanjabiProducts />} />
-        <Route path='/about-us' element={<AboutUs />} />
-      </Routes>
-      <Footer />
-    </Fragment>
+    <Suspense fallback={<div>LOADING....</div>}>
+      <Fragment>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/panjabis' element={<PanjabiProducts />} />
+          <Route path='/about-us' element={<AboutUs />} />
+        </Routes>
+        <Footer />
+      </Fragment>
+    </Suspense>
   );
 };
 
