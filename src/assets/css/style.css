@@ -53,4 +53,8 @@
   background-image: url("https://kx-ilyn-shop-s3.s3.amazonaws.com/static/images/cover_images/footer-bg-one.png");
 }
 
+.display-center-section a:hover {
+  opacity: 0.5;
+}
+
 /* ==================== 3. Display End ==================== */
