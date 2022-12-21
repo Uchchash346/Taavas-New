@@ -15,7 +15,7 @@ const Footer = () => {
                                 </div>
                                 <div className='footer-list-menu'>
                                     <ul className='list-none'>
-                                        <li><a href="/" className="text-slate-500 text-md">About Us</a></li>
+                                        <li><a href="/about-us" className="text-slate-500 text-md">About Us</a></li>
                                         <li><a href="/" className="text-slate-500 text-md">Contact Us</a></li>
                                         <li><a href="/" className="text-slate-500 text-md">Intellectual Property</a></li>
                                     </ul>

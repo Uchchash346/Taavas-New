@@ -6,8 +6,8 @@
         "code": "230024",
         "color": "Dark Maroon",
         "images": [
-            "../../src/assets/panjabi_images/1A.webp",
-            "../../src/assets/panjabi_images/1B.webp"
+            "/panjabi_images/1A.webp",
+            "/panjabi_images/1B.webp"
         ],
         "size": [
             "XS",
@@ -50,8 +50,8 @@
         "code": "230025",
         "color": "Dark Teal",
         "images": [
-            "../../src/assets/panjabi_images/2A.webp",
-            "../../src/assets/panjabi_images/2B.webp"
+            "/panjabi_images/2A.webp",
+            "/panjabi_images/2B.webp"
         ],
         "size": [
             "XS",
@@ -94,8 +94,8 @@
         "code": "230019",
         "color": "Dark Red",
         "images": [
-            "../../src/assets/panjabi_images/3A.webp",
-            "../../src/assets/panjabi_images/3B.webp"
+            "/panjabi_images/3A.webp",
+            "/panjabi_images/3B.webp"
         ],
         "size": [
             "XS",
@@ -138,8 +138,8 @@
         "code": "230020",
         "color": "Dark Green",
         "images": [
-            "../../src/assets/panjabi_images/4A.webp",
-            "../../src/assets/panjabi_images/4B.webp"
+            "/panjabi_images/4A.webp",
+            "/panjabi_images/4B.webp"
         ],
         "size": [
             "XS",
@@ -182,8 +182,8 @@
         "code": "230017",
         "color": "Dark Brown",
         "images": [
-            "../../src/assets/panjabi_images/5A.webp",
-            "../../src/assets/panjabi_images/5B.webp"
+            "/panjabi_images/5A.webp",
+            "/panjabi_images/5B.webp"
         ],
         "size": [
             "XS",
@@ -226,8 +226,8 @@
         "code": "232501",
         "color": "Dark Olive",
         "images": [
-            "../../src/assets/panjabi_images/6A.webp",
-            "../../src/assets/panjabi_images/6B.webp"
+            "/panjabi_images/6A.webp",
+            "/panjabi_images/6B.webp"
         ],
         "size": [
             "XS",
@@ -273,8 +273,8 @@
         "code": "232502",
         "color": "Dark Maroon",
         "images": [
-            "../../src/assets/panjabi_images/7A.webp",
-            "../../src/assets/panjabi_images/7B.webp"
+            "/panjabi_images/7A.webp",
+            "/panjabi_images/7B.webp"
         ],
         "size": [
             "XS",
@@ -320,8 +320,8 @@
         "code": "232530",
         "color": "Off White/ Black",
         "images": [
-            "../../src/assets/panjabi_images/8A.webp",
-            "../../src/assets/panjabi_images/8B.webp"
+            "/panjabi_images/8A.webp",
+            "/panjabi_images/8B.webp"
         ],
         "size": [
             "XS",
@@ -367,8 +367,8 @@
         "code": "232529",
         "color": "Navy/Light Grey",
         "images": [
-            "../../src/assets/panjabi_images/9A.webp",
-            "../../src/assets/panjabi_images/9B.webp"
+            "/panjabi_images/9A.webp",
+            "/panjabi_images/9B.webp"
         ],
         "size": [
             "XS",
@@ -414,8 +414,8 @@
         "code": "222536",
         "color": "Arctic White",
         "images": [
-            "../../src/assets/panjabi_images/10A.webp",
-            "../../src/assets/panjabi_images/10B.webp"
+            "/panjabi_images/10A.webp",
+            "/panjabi_images/10B.webp"
         ],
         "size": [
             "XS",
@@ -461,8 +461,8 @@
         "code": "222023",
         "color": "Dark Maroon",
         "images": [
-            "../../src/assets/panjabi_images/11A.webp",
-            "../../src/assets/panjabi_images/11B.webp"
+            "/panjabi_images/11A.webp",
+            "/panjabi_images/11B.webp"
         ],
         "size": [
             "XS",
@@ -508,8 +508,8 @@
         "code": "222024",
         "color": "Dark Navy",
         "images": [
-            "../../src/assets/panjabi_images/12A.webp",
-            "../../src/assets/panjabi_images/12B.webp"
+            "/panjabi_images/12A.webp",
+            "/panjabi_images/12B.webp"
         ],
         "size": [
             "XS",
@@ -555,8 +555,8 @@
         "code": "222020",
         "color": "Midnight Navy",
         "images": [
-            "../../src/assets/panjabi_images/13A.webp",
-            "../../src/assets/panjabi_images/13B.webp"
+            "/panjabi_images/13A.webp",
+            "/panjabi_images/13B.webp"
         ],
         "size": [
             "XS",
@@ -602,8 +602,8 @@
         "code": "222019",
         "color": "Midnight Black",
         "images": [
-            "../../src/assets/panjabi_images/14A.webp",
-            "../../src/assets/panjabi_images/14B.webp"
+            "/panjabi_images/14A.webp",
+            "/panjabi_images/14B.webp"
         ],
         "size": [
             "XS",
@@ -649,8 +649,8 @@
         "code": "222008",
         "color": "Dark Grey/Silver",
         "images": [
-            "../../src/assets/panjabi_images/15A.webp",
-            "../../src/assets/panjabi_images/15B.webp"
+            "/panjabi_images/15A.webp",
+            "/panjabi_images/15B.webp"
         ],
         "size": [
             "XS",
@@ -696,8 +696,8 @@
         "code": "227029",
         "color": "Dark Grey/Silver",
         "images": [
-            "../../src/assets/panjabi_images/16A.webp",
-            "../../src/assets/panjabi_images/16B.webp"
+            "/panjabi_images/16A.webp",
+            "/panjabi_images/16B.webp"
         ],
         "size": [
             "XS",
@@ -743,8 +743,8 @@
         "code": "227030",
         "color": "Black",
         "images": [
-            "../../src/assets/panjabi_images/17A.webp",
-            "../../src/assets/panjabi_images/17B.webp"
+            "/panjabi_images/17A.webp",
+            "/panjabi_images/17B.webp"
         ],
         "size": [
             "XS",
@@ -790,8 +790,8 @@
         "code": "227024",
         "color": "Dark Purple/Brown/Golden",
         "images": [
-            "../../src/assets/panjabi_images/18A.webp",
-            "../../src/assets/panjabi_images/18B.webp"
+            "/panjabi_images/18A.webp",
+            "/panjabi_images/18B.webp"
         ],
         "size": [
             "XS",
@@ -837,8 +837,8 @@
         "code": "227023",
         "color": "Dark Grey/Black/Silver",
         "images": [
-            "../../src/assets/panjabi_images/19A.webp",
-            "../../src/assets/panjabi_images/19B.webp"
+            "/panjabi_images/19A.webp",
+            "/panjabi_images/19B.webp"
         ],
         "size": [
             "XS",
@@ -884,8 +884,8 @@
         "code": "227056",
         "color": "Dark Brown/Golden",
         "images": [
-            "../../src/assets/panjabi_images/20A.webp",
-            "../../src/assets/panjabi_images/20B.webp"
+            "/panjabi_images/20A.webp",
+            "/panjabi_images/20B.webp"
         ],
         "size": [
             "XS",

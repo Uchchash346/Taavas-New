@@ -6,7 +6,7 @@ const PanjabiProducts = () => {
     useEffect(() => {
         axios
             .get("/data/panjabi_products.json")
-            .then((res) => console.log(res.data))
+            .then((res) => setPanjabi(res.data))
             .catch((err) => console.log(err))
             
     }, [])
