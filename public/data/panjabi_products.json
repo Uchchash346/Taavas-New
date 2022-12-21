@@ -923,5 +923,930 @@
         ],
         "regular_price": 7250,
         "sale_price": 0
+    },
+    {
+        "id": 21,
+        "product_title": "PREMIUM Panjabi",
+        "category": "Premium",
+        "code": "230024",
+        "color": "Dark Maroon",
+        "images": [
+            "/panjabi_images/1A.webp",
+            "/panjabi_images/1B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Carrying the spirit of the inception of the nation with a hue taken from the flag, this new rare beauty embodies the passion and sacrifice made in 1971. By construction, the jacquard weaved fine cotton fabric features patterns inspired by the stripes of the Royal Bengal Tiger. The Premium Collection is an exclusive selection of elegant, superior quality designs.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Fine Cotton",
+            "Jacquard Weaved"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 3650,
+        "sale_price": 0
+    },
+    {
+        "id": 22,
+        "product_title": "PREMIUM Panjabi",
+        "category": "Premium",
+        "code": "230025",
+        "color": "Dark Teal",
+        "images": [
+            "/panjabi_images/2A.webp",
+            "/panjabi_images/2B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Carrying the spirit of the inception of the nation with a hue taken from the flag, this new rare beauty embodies the passion and sacrifice made in 1971. By construction, the jacquard weaved fine cotton fabric features patterns inspired by the stripes of the Royal Bengal Tiger.The Premium Collection is an exclusive selection of elegant, superior quality designs.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Fine Cotton",
+            "Jacquard Weaved"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 3650,
+        "sale_price": 0
+    },
+    {
+        "id": 23,
+        "product_title": "PREMIUM Panjabi",
+        "category": "Premium",
+        "code": "230019",
+        "color": "Dark Red",
+        "images": [
+            "/panjabi_images/3A.webp",
+            "/panjabi_images/3B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Echoing the victory with shades of red! Carrying the spirit of the inception of the nation with hue taken from the flag, this new rare beauty embodies the passion and sacrifice made in 1971. By construction, the jacquard weaved fine cotton fabric features shadowy leaves emblematic of the natural landscapes of the land of Bengal. Ignite the passion of victory with this Limited Edition iconic style in the month of December. The Premium Collection is an exclusive selection of elegant, superior quality designs.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Fine Cotton",
+            "Jacquard Weaved"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 3650,
+        "sale_price": 0
+    },
+    {
+        "id": 24,
+        "product_title": "PREMIUM Panjabi",
+        "category": "Premium",
+        "code": "230020",
+        "color": "Dark Green",
+        "images": [
+            "/panjabi_images/4A.webp",
+            "/panjabi_images/4B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Echoing the victory with shades of green!Carrying the spirit of the inception of the nation with hue taken from the flag, this new rare beauty embodies the passion and sacrifice made in 1971. By construction, the jacquard weaved fine cotton fabric features shadowy leaves emblematic of the natural landscapes of the land of Bengal. Ignite the passion of victory with this Limited Edition iconic style in the month of December.The Premium Collection is an exclusive selection of elegant, superior quality designs.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Fine Cotton",
+            "Jacquard Weaved"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 3650,
+        "sale_price": 0
+    },
+    {
+        "id": 25,
+        "product_title": "PREMIUM Panjabi",
+        "category": "Premium",
+        "code": "230017",
+        "color": "Dark Brown",
+        "images": [
+            "/panjabi_images/5A.webp",
+            "/panjabi_images/5B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Echoing the victory with shades of green!Carrying the spirit of the inception of the nation with hue taken from the flag, this new rare beauty embodies the passion and sacrifice made in 1971. By construction, the jacquard weaved fine cotton fabric features shadowy leaves emblematic of the natural landscapes of the land of Bengal. Ignite the passion of victory with this Limited Edition iconic style in the month of December.The Premium Collection is an exclusive selection of elegant, superior quality designs.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Fine Cotton",
+            "Jacquard Weaved"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 3650,
+        "sale_price": 0
+    },
+    {
+        "id": 26,
+        "product_title": "Luxury Panjabi",
+        "category": "Luxury",
+        "code": "232501",
+        "color": "Dark Olive",
+        "images": [
+            "/panjabi_images/6A.webp",
+            "/panjabi_images/6B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "The Luxury Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 27,
+        "product_title": "Luxury Panjabi",
+        "category": "Luxury",
+        "code": "232502",
+        "color": "Dark Maroon",
+        "images": [
+            "/panjabi_images/7A.webp",
+            "/panjabi_images/7B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "The Luxury Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 28,
+        "product_title": "Luxury Panjabi",
+        "category": "Luxury",
+        "code": "232530",
+        "color": "Off White/ Black",
+        "images": [
+            "/panjabi_images/8A.webp",
+            "/panjabi_images/8B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 4950,
+        "sale_price": 0
+    },
+    {
+        "id": 29,
+        "product_title": "Luxury Panjabi",
+        "category": "Luxury",
+        "code": "232529",
+        "color": "Navy/Light Grey",
+        "images": [
+            "/panjabi_images/9A.webp",
+            "/panjabi_images/9B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 4950,
+        "sale_price": 0
+    },
+    {
+        "id": 30,
+        "product_title": "Luxury Panjabi",
+        "category": "Luxury",
+        "code": "222536",
+        "color": "Arctic White",
+        "images": [
+            "/panjabi_images/10A.webp",
+            "/panjabi_images/10B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 31,
+        "product_title": "Platinum Panjabi",
+        "category": "Platinum",
+        "code": "222023",
+        "color": "Dark Maroon",
+        "images": [
+            "/panjabi_images/11A.webp",
+            "/panjabi_images/11B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 6250,
+        "sale_price": 0
+    },
+    {
+        "id": 32,
+        "product_title": "Platinum Panjabi",
+        "category": "Platinum",
+        "code": "222024",
+        "color": "Dark Navy",
+        "images": [
+            "/panjabi_images/12A.webp",
+            "/panjabi_images/12B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 6250,
+        "sale_price": 0
+    },
+    {
+        "id": 33,
+        "product_title": "Platinum Panjabi",
+        "category": "Platinum",
+        "code": "222020",
+        "color": "Midnight Navy",
+        "images": [
+            "/panjabi_images/13A.webp",
+            "/panjabi_images/13B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 34,
+        "product_title": "Platinum Panjabi",
+        "category": "Platinum",
+        "code": "222019",
+        "color": "Midnight Black",
+        "images": [
+            "/panjabi_images/14A.webp",
+            "/panjabi_images/14B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 35,
+        "product_title": "Platinum Panjabi",
+        "category": "Platinum",
+        "code": "222008",
+        "color": "Dark Grey/Silver",
+        "images": [
+            "/panjabi_images/15A.webp",
+            "/panjabi_images/15B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 5950,
+        "sale_price": 0
+    },
+    {
+        "id": 36,
+        "product_title": "Sahara Panjabi",
+        "category": "Sahara",
+        "code": "227029",
+        "color": "Dark Grey/Silver",
+        "images": [
+            "/panjabi_images/16A.webp",
+            "/panjabi_images/16B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 7450,
+        "sale_price": 0
+    },
+    {
+        "id": 37,
+        "product_title": "Sahara Panjabi",
+        "category": "Sahara",
+        "code": "227030",
+        "color": "Black",
+        "images": [
+            "/panjabi_images/17A.webp",
+            "/panjabi_images/17B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 7450,
+        "sale_price": 0
+    },
+    {
+        "id": 38,
+        "product_title": "Sahara Panjabi",
+        "category": "Sahara",
+        "code": "227024",
+        "color": "Dark Purple/Brown/Golden",
+        "images": [
+            "/panjabi_images/18A.webp",
+            "/panjabi_images/18B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 7250,
+        "sale_price": 0
+    },
+    {
+        "id": 39,
+        "product_title": "Sahara Panjabi",
+        "category": "Sahara",
+        "code": "227023",
+        "color": "Dark Grey/Black/Silver",
+        "images": [
+            "/panjabi_images/19A.webp",
+            "/panjabi_images/19B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 7250,
+        "sale_price": 0
+    },
+    {
+        "id": 40,
+        "product_title": "Sahara Panjabi",
+        "category": "Sahara",
+        "code": "227056",
+        "color": "Dark Brown/Golden",
+        "images": [
+            "/panjabi_images/20A.webp",
+            "/panjabi_images/20B.webp"
+        ],
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+        ],
+        "description": "Crafted from two-ply ultra fine cotton that is further treated with liquid ammonia for maximum antibacterial and antimicrobial conditioning, this elegant style wears off white and black hues. The entire presentation is enhanced by ILLIYEEN signature buttons along with the contrast cuffs and collars featuring damask patterns perfecting the unforgettable aesthetics. The LUXURY Collection comprises of minimalistic, impeccable designs crafted from the worlds finest materials.",
+        "details": [
+            "Semi-Formal/Casual",
+            "Regular Fit",
+            "ILLIYEEN Signature Buttons"
+        ],
+        "material": [
+            "100% Ultra Fine Cotton",
+            "100s Two-Ply",
+            "Yarn Dyed Herringbone Weaved",
+            "106 GSM",
+            "Fabric Finish : Liquid Ammonia + Easy Care"
+        ],
+        "care": [
+            "Dry clean recommended",
+            "Wash separately with cool water",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Iron medium heat",
+            "Do not iron over the label"
+        ],
+        "stock_status": [
+            0,
+            1
+        ],
+        "regular_price": 7250,
+        "sale_price": 0
     }
 ]
