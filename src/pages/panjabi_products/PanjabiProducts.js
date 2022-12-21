@@ -18,7 +18,8 @@ const PanjabiProducts = () => {
                             return (
                                 <div key={index}>
                                     <img src={data.images[0]} alt="" />
-                                    {/* <h1>{data.id}</h1> */}
+                                    console.log({data.images[0]})
+                                    <h1>{data.id}</h1>
                                 </div>
                             )
                         })
