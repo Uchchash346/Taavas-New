@@ -15,7 +15,6 @@ const PaymentPolicy = () => {
                         <Sidebar />
                     </div>
                     <div className='w-5/6'>
-                        {/* <p className='text-justify'></p> */}
                         <p className='text-justify'>
                             To begin purchasing from the site (www.ilyn.global) or platform, you may be required to register using a valid phone number and password. It is your sole responsibility to keep such information/log-in details secure. We shall not be held responsible if such information/log-in details are provided to a third party by the customer or if any third party receives the same due to the negligence of the customer and for any loss incurred as a result of the above-mentioned incidents (unauthorized access to data).
                         </p>
