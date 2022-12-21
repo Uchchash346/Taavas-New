@@ -47,7 +47,7 @@ const Footer = () => {
                                         <li><a href="/" className="text-slate-500 text-md">Privacy Policy</a></li>
                                         <li><a href="/" className="text-slate-500 text-md">Payment Policy</a></li>
                                         <li><a href="/" className="text-slate-500 text-md">Shipping Policy</a></li>
-                                        <li><a href="/" className="text-slate-500 text-md">Terms & Conditions</a></li>
+                                        <li><a href="/terms-conditions" className="text-slate-500 text-md">Terms & Conditions</a></li>
                                     </ul>
                                 </div>
                             </div>
