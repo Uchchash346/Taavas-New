@@ -40,43 +40,6 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
-            {/* <div ClassName="h-full shadow-md bg-white px-1 absolute">
-                <ul ClassName="relative">
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Privacy Policy</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Payment Policy</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Shipping Policy</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Exchange & Return</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Size Guide</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Loyalty Program</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Terms & COnditions</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Display Centers</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">About Us</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Contact Us</a>
-                    </li>
-                    <li ClassName="relative ">
-                        <a ClassName="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-white hover:bg-black transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">Intellectual Property</a>
-                    </li>
-                </ul>
-            </div> */}
         </Fragment>
     );
 };
