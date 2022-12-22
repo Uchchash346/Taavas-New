@@ -38,21 +38,21 @@ const Panjabi = () => {
                                 {/* <button type="" className='rounded-lg border-2 border-inherit w-80 mt-3 pt-1'
                                 >{jeansPant.category_name}</button> */}
                             </SwiperSlide>
-                </Swiper>
+                        </Swiper>
 
-            </div>
-            <div>
-                <p className='text-center'>{location.state.product_title}</p>
-                <p className='text-center text-gray-400'>{location.state.code}</p>
-                <p className='text-center font-bold'>BDT {location.state.regular_price}</p>
-                {/* <p className=''>Color: {location.state.color}</p> */}
-                {/* Need size guide section */}
-                {/* <a href="/" className='border bg-black mt-3 text-white px-8 py-5 w-auto uppercase text-center'>Add to Bag</a> */}
-                <button type="" className='border bg-black mt-3 text-white py-2 w-64 uppercase'>Add to Bag</button>
-                <br />
-                <button type="" className='border mt-3 text-black py-2 w-64 uppercase'>Find In Store</button>
-            </div>
-        </div>
+                    </div>
+                    <div>
+                        <p className='text-center'>{location.state.product_title}</p>
+                        <p className='text-center text-gray-400'>{location.state.code}</p>
+                        <p className='text-center font-bold'>BDT {location.state.regular_price}</p>
+                        {/* <p className=''>Color: {location.state.color}</p> */}
+                        {/* Need size guide section */}
+                        {/* <a href="/" className='border bg-black mt-3 text-white px-8 py-5 w-auto uppercase text-center'>Add to Bag</a> */}
+                        <button type="" className='relative left-1/2 -translate-x-2/4	border bg-black mt-3 text-white py-2 w-64 uppercase'>Add to Bag</button>
+                        <br />
+                        <button type="" className='relative left-1/2 -translate-x-2/4 border mt-3 text-black py-2 w-64 uppercase'>Find In Store</button>
+                    </div>
+                </div>
             </div >
         </Fragment >
     );
