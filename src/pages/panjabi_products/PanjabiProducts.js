@@ -8,7 +8,6 @@ const PanjabiProducts = () => {
             .get("/data/panjabi_products.json")
             .then((res) => setPanjabi(res.data))
             .catch((err) => console.log(err))
-
     }, [])
     return (
         <Fragment>
