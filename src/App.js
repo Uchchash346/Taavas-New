@@ -1,6 +1,6 @@
 import React, { Fragment, lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
-
+import './assets/css/style.css'
 
 // Pages
 const HomePage = lazy(() => import("./pages/home/Home"));
@@ -15,7 +15,14 @@ const PaymentPolicy = lazy(() => import("./pages/payment_policy/PaymentPolicy.js
 
 const App = () => {
   return (
-    <Suspense fallback={<div>LOADING....</div>}>
+    <Suspense fallback={
+      <div className="tavaas-preloader-wrapper">
+        <div className="tavaas-preloader">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    }>
       <Fragment>
         <Navbar />
         <Routes>
