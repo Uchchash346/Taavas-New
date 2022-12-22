@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { Fragment, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const PanjabiProducts = () => {
     const [panjabi, setPanjabi] = useState([]);
@@ -18,13 +19,18 @@ const PanjabiProducts = () => {
             <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
                 {
                     panjabi.map((data, index) => {
-
                         return (
                             <div key={index}>
-                                <img src={data.images[0]} onMouseOver={data.images[2]} alt="" />
-                                <h1 className='text-left'><a href="/panjabis">{data.product_title}</a></h1>
-                                <p className='text-inherit font-semibold'>Product Code: {data.code}</p>
-                                <p>BDT: {data.regular_price}</p>
+                                <Link to={`/panjabis/${data.id}`}>
+                                    <img src={data.images[0]}
+                                        onMouseEnter={(e) => e.target.src = data.images[1]}
+                                        onMouseLeave={(e) => e.target.src = data.images[0]}
+                                        alt="" />
+                                    <h1 className='text-left'><a href="/panjabis">{data.product_title}</a></h1>
+                                    <p className='text-inherit font-semibold'>Product Code: {data.code}</p>
+                                    <p>BDT: {data.regular_price}</p>
+                                </Link>
+
                             </div>
                         )
                     })
