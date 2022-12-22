@@ -19,9 +19,12 @@ const PanjabiProducts = () => {
             <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
                 {
                     panjabi.map((data, index) => {
+                        const { id, product_title, category, code, color, images, size, description, details, material, care, stock_status, regular_price, sale_price } = data;
                         return (
                             <div key={index}>
-                                <Link to={`/panjabis/${data.id}`}>
+                                <Link to={`/panjabis/${data.id}`}
+                                    state={{ id, product_title, category, code, color, images, size, description, details, material, care, stock_status, regular_price, sale_price }}
+                                >
                                     <img src={data.images[0]}
                                         onMouseEnter={(e) => e.target.src = data.images[1]}
                                         onMouseLeave={(e) => e.target.src = data.images[0]}
