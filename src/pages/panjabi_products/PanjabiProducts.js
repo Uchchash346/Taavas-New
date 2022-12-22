@@ -13,9 +13,13 @@ const PanjabiProducts = () => {
     return (
         <Suspense fallback={<div>LOADING....</div>}>
             <Fragment>
-                <div className="grid grid-cols-5 gap-2 pt-16 pb-5 mx-5">
+                <div>
+                    <h1 className='text-center pt-16 text-sm'>{panjabi.length} Items</h1>
+                </div>
+                <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
                     {
                         panjabi.map((data, index) => {
+
                             return (
                                 <div key={index}>
                                     <img src={data.images[0]} className="hover:`{data.images[1]}`" alt="" />
