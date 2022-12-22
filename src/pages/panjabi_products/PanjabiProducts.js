@@ -9,6 +9,7 @@ const PanjabiProducts = () => {
             .then((res) => setPanjabi(res.data))
             .catch((err) => console.log(err))
     }, [])
+
     return (
         <Fragment>
             <div>
@@ -20,7 +21,7 @@ const PanjabiProducts = () => {
 
                         return (
                             <div key={index}>
-                                <img src={data.images[0]} className="hover:`{data.images[1]}`" alt="" />
+                                <img src={data.images[0]} onMouseOver={data.images[2]} alt="" />
                                 <h1 className='text-left'><a href="/panjabis">{data.product_title}</a></h1>
                                 <p className='text-inherit font-semibold'>Product Code: {data.code}</p>
                                 <p>BDT: {data.regular_price}</p>

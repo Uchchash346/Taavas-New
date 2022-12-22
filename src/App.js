@@ -12,6 +12,7 @@ const IntellectualProperty = lazy(() => import("./pages/intellectual_property/In
 const TermsConditions = lazy(() => import("./pages/terms_and_conditions/TermsConditions.js"));
 const ShippingPolicy = lazy(() => import("./pages/shipping_policy/ShippingPolicy.js"));
 const PaymentPolicy = lazy(() => import("./pages/payment_policy/PaymentPolicy.js"));
+const ContactUs = lazy(() => import("./pages/contact_us/Contact.js"));
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
           <Route path='/terms-conditions' element={<TermsConditions />} />
           <Route path='/shipping-policy' element={<ShippingPolicy />} />
           <Route path='/payment-policy' element={<PaymentPolicy />} />
+          <Route path='/contact-us' element={<ContactUs />} />
         </Routes>
         <Footer />
       </Fragment>
