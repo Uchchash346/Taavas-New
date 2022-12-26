@@ -37,7 +37,6 @@ const Panjabi = () => {
                                     <SwiperSlide>
                                         <img src={singleImage} alt="" className='' />
                                     </SwiperSlide>
-
                                 ))
                             }
                         </Swiper>

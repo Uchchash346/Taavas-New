@@ -6,10 +6,14 @@ const TopBarMenu = () => {
             <div className='top-bar-menu relative w-full h-auto bg-transparent overflow-y-hidden z-10 block'>
                 <ul className='menu justify-center h-full flex-wrap flex-row p-0 m-0 relative list-none flex'>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
-                        <button type="" className='cursor-pointer text-sm'>Winter Collection</button>
+                        <a href="/">
+                            <button type="" className='cursor-pointer text-sm'>Winter Collection</button>
+                        </a>
                     </li>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
-                        <button type="" className='cursor-pointer text-sm'> New Arrivals</button>
+                        <a href="/new-arrival">
+                            <button type="" className='cursor-pointer text-sm'> New Arrivals</button>
+                        </a>
                     </li>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
                         <a href="/panjabis">

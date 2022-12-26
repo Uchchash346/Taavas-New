@@ -153,3 +153,16 @@
   box-shadow: 1px 1px 10px #e6e6e6;
 }
 /* ==================== 5. Panjabi Description End ==================== */
+
+/* ==================== 6. New Arrivals Start ==================== */
+
+.new-arrival{
+  background-color: #faf9f8;
+}
+
+.wishlist-icon:hover{
+  color: red;
+  /* background-color: red; */
+}
+
+/* ==================== 6. New Arrivals End ==================== */

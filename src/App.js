@@ -14,6 +14,7 @@ const ShippingPolicy = lazy(() => import("./pages/shipping_policy/ShippingPolicy
 const PaymentPolicy = lazy(() => import("./pages/payment_policy/PaymentPolicy.js"));
 const ContactUs = lazy(() => import("./pages/contact_us/Contact.js"));
 const Panjabi = lazy(() => import("./pages/single_panjabi/Panjabi.js"));
+const NewArrival = lazy(() => import("./pages/new_arrival/NewArrival.js"));
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path='/shipping-policy' element={<ShippingPolicy />} />
           <Route path='/payment-policy' element={<PaymentPolicy />} />
           <Route path='/contact-us' element={<ContactUs />} />
+          <Route path='/new-arrival' element={<NewArrival />} />
           <Route path='/panjabis/:id' element={<Panjabi />} />
         </Routes>
         <Footer />
