@@ -130,7 +130,12 @@
 /* ==================== 4. Preloader End ==================== */
 
 /* ==================== 5. Panjabi Description Start ==================== */
-.details-list{
+
+.details-list {
   list-style-type: square;
+}
+
+.grid-description {
+  box-shadow: 1px 1px 10px #e6e6e6;
 }
 /* ==================== 5. Panjabi Description End ==================== */

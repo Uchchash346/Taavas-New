@@ -71,8 +71,8 @@ const Panjabi = () => {
                 </div>
 
                 {/* Description, details, care and material area */}
-                <div className='description-grid pt-10'>
-                    <div className='grid-description grid gap-4 grid-cols-2 grid-rows-2'>
+                <div className='description-grid mt-10 max-w-full'>
+                    <div className='grid-description grid gap-4 grid-cols-2 grid-rows-2 p-10'>
                         <div className=''>
                             <h5 className='font-bold text-xl'>Description</h5>
                             <p className='text-justify pt-4 px-4'>{location.state.description}</p>
