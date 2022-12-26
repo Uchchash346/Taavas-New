@@ -17,7 +17,7 @@ const Panjabi = () => {
     return (
         <Fragment>
             <div className='pt-16 mx-auto px-56'>
-                <div className='grid grid-cols-2 gap-4'>
+                <div className='grid grid-cols-2 gap-4 h-auto'>
                     <div>
                         <Swiper
                             slidesPerView={1}
@@ -26,15 +26,20 @@ const Panjabi = () => {
                             loop={true}
                             loopFillGroupWithBlank={true}
                             pagination={{
-                                clickable: false,
+                                clickable: true,
                             }}
-                            navigation={false}
+                            navigation={true}
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                         >
-                            <SwiperSlide>
-                                <img src={location.state.images[0]} alt="" />
-                            </SwiperSlide>
+                            {
+                                location.state.images.map((singleImage) => (
+                                    <SwiperSlide>
+                                        <img src={singleImage} alt="" className='' />
+                                    </SwiperSlide>
+
+                                ))
+                            }
                         </Swiper>
                     </div>
                     <div>

@@ -131,6 +131,20 @@
 
 /* ==================== 5. Panjabi Description Start ==================== */
 
+.swiper-button-prev{
+  background-color: rgba(10,10,10,.1);
+  padding: 28px !important;
+  --swiper-theme-color: white;
+  --swiper-navigation-size: 24px;
+}
+
+.swiper-button-next{
+  background-color: rgba(10,10,10,.1);
+  padding: 28px !important;
+  --swiper-theme-color: white;
+  --swiper-navigation-size: 24px;
+}
+
 .details-list {
   list-style-type: square;
 }
