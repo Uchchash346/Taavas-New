@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import '../../assets/css/style.css';
 import { useLocation } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -65,6 +66,40 @@ const Panjabi = () => {
                                     <img src={twitterIcon} className="h-4 w-4 relative m-2" alt="" />
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Description, details, care and material area */}
+                <div className='description-grid pt-10'>
+                    <div className='grid-description grid gap-4 grid-cols-2 grid-rows-2'>
+                        <div className=''>
+                            <h5 className='font-bold text-xl'>Description</h5>
+                            <p className='text-justify pt-4 px-4'>{location.state.description}</p>
+                        </div>
+                        <div className=''>
+                            <h5 className='font-bold text-xl'>Details</h5>
+                            <ul className='pt-4 details-list px-4'>
+                                {location.state.details.map((detail) => (
+                                    <li>{detail}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className='material-section pt-5'>
+                            <h5 className='font-bold text-xl'>Material</h5>
+                            <ul className='pt-4 details-list px-4'>
+                                {location.state.material.map((singleMaterial) => (
+                                    <li>{singleMaterial}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className='material-section pt-5'>
+                            <h5 className='font-bold text-xl'>Care</h5>
+                            <ul className='pt-4 details-list px-4'>
+                                {location.state.care.map((singleCare) => (
+                                    <li>{singleCare}</li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                 </div>
