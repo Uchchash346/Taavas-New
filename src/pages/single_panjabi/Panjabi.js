@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
-import facbookIcon from '../../assets/social_icons/facebook.png';
+import facebookIcon from '../../assets/social_icons/facebook.png';
 import messengerIcon from '../../assets/social_icons/messenger.png';
 import whatsappIcon from '../../assets/social_icons/whatsapp.png';
 import twitterIcon from '../../assets/social_icons/twitter.png';
@@ -48,7 +48,7 @@ const Panjabi = () => {
                         <div className='block text-center mt-5' >
                             <div className='inline-block'>
                                 <a href="https://www.facebook.com/">
-                                    <img src={facbookIcon} className="h-4 w-4 relative m-2" alt="" />
+                                    <img src={facebookIcon} className="h-4 w-4 relative m-2" alt="" />
                                 </a>
                             </div>
                             <div className='inline-block'>
