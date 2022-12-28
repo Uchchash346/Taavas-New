@@ -15,6 +15,7 @@ const PanjabiProducts = () => {
         <Fragment>
             <div>
                 <h1 className='text-center pt-16 text-sm'>{panjabi.length} Items</h1>
+                {/* <h1 className='text-end pt-16 text-sm'>Filters & Sort</h1> */}
             </div>
             <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
                 {
@@ -33,7 +34,6 @@ const PanjabiProducts = () => {
                                     <p className='text-inherit font-semibold'>Product Code: {data.code}</p>
                                     <p>BDT: {data.regular_price}</p>
                                 </Link>
-
                             </div>
                         )
                     })

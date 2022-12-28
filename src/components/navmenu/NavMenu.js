@@ -2,15 +2,16 @@ import React, { Fragment, lazy } from 'react';
 import siteLogo from '../../assets/img/logo.png'
 import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 import { AiOutlineUser } from "react-icons/ai";
+// import { useSelector } from 'react-redux';
 
 const TopBarMenu = lazy(() => import('../navmenu/TopBarMenu.js'));
 
-const NavMenu = () => {
+const NavMenu = () => {    
     return (
         <Fragment>
             <div>
                 {/* Top bar container */}
-                <div className='top-bar-container relative top-0 h-auto z-10 w-full'>
+                <div className='top-bar-container top-0 my-5 h-full w-full'>
                     {/* site logo */}
                     <img src={siteLogo}
                         id="site-logo-white"
@@ -29,7 +30,6 @@ const NavMenu = () => {
                         <button
                             type="button"
                             className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
-
                             <AiOutlineUser />
                             <span className='ml-1'>SIGN IN</span>
                         </button>

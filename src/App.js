@@ -1,5 +1,5 @@
 import React, { Fragment, lazy, Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './assets/css/style.css'
 
 // Pages
@@ -28,18 +28,20 @@ const App = () => {
     }>
       <Fragment>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/panjabis' element={<PanjabiProducts />} />
-          <Route path='/about-us' element={<AboutUs />} />
-          <Route path='/intellectual-property' element={<IntellectualProperty />} />
-          <Route path='/terms-conditions' element={<TermsConditions />} />
-          <Route path='/shipping-policy' element={<ShippingPolicy />} />
-          <Route path='/payment-policy' element={<PaymentPolicy />} />
-          <Route path='/contact-us' element={<ContactUs />} />
-          <Route path='/new-arrival' element={<NewArrival />} />
-          <Route path='/panjabis/:id' element={<Panjabi />} />
-        </Routes>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/panjabis' element={<PanjabiProducts />} />
+            <Route path='/about-us' element={<AboutUs />} />
+            <Route path='/intellectual-property' element={<IntellectualProperty />} />
+            <Route path='/terms-conditions' element={<TermsConditions />} />
+            <Route path='/shipping-policy' element={<ShippingPolicy />} />
+            <Route path='/payment-policy' element={<PaymentPolicy />} />
+            <Route path='/contact-us' element={<ContactUs />} />
+            <Route path='/new-arrival' element={<NewArrival />} />
+            <Route path='/panjabis/:id' element={<Panjabi />} />
+          </Routes>
+        </BrowserRouter>
         <Footer />
       </Fragment>
     </Suspense>

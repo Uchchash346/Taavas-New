@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import '../../assets/css/style.css';
 import { useLocation } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,10 +10,22 @@ import facebookIcon from '../../assets/social_icons/facebook.png';
 import messengerIcon from '../../assets/social_icons/messenger.png';
 import whatsappIcon from '../../assets/social_icons/whatsapp.png';
 import twitterIcon from '../../assets/social_icons/twitter.png';
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCartIncrement } from '../../store/actions/AddToCart';
 
 const Panjabi = () => {
     const location = useLocation()
     console.log(location)
+
+    const CartCount = useSelector((state) => state.count);
+    const dispatch = useDispatch()
+
+    // const [data, setData] = useState(0)
+
+    const handleAddToCart = () => {
+        dispatch(addToCartIncrement())
+    }
+
     return (
         <Fragment>
             <div className='pt-16 mx-auto px-56'>
@@ -46,7 +58,9 @@ const Panjabi = () => {
                         <p className='text-center text-gray-400'>{location.state.code}</p>
                         <p className='text-center font-bold'>BDT {location.state.regular_price}</p>
                         {/* Need size guide section */}
-                        <button type="" className='relative left-1/2 -translate-x-2/4	border bg-black mt-3 text-white py-2 w-64 uppercase'>Add to Bag</button>
+                        <button type="" className='relative left-1/2 -translate-x-2/4	border bg-black mt-3 text-white py-2 w-64 uppercase'
+                            onClick={() => handleAddToCart(CartCount)}
+                        >Add to Bag</button>
                         <br />
                         <button type="" className='relative left-1/2 -translate-x-2/4 border mt-3 text-black py-2 w-64 uppercase'>Find In Store</button>
                         <div className='block text-center mt-5' >

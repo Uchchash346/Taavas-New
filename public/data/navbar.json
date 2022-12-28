@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Winter Collection",
+        "sub-category":""
+    },
+    {
+        "id": 2,
+        "name": "New Arrivals",
+        "sub-category":""
+    },
+    {
+        "id": 3,
+        "name": "Clothing",
+        "sub-category":""
+    },
+    {
+        "id": 4,
+        "name": "Footwear",
+        "sub-category":""
+    },
+    {
+        "id": 5,
+        "name": "Accessories",
+        "sub-category":""
+    },
+    {
+        "id": 6,
+        "name": "Sale",
+        "sub-category":""
+    }
+]
