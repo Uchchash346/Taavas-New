@@ -10,6 +10,7 @@ const JeansSlider = lazy(() => import('../../components/home_jeans_category_slid
 const WatchBanner = lazy(() => import('../../components/home_watch_banner/WatchBanner.js'));
 
 const Home = () => {
+    // console.log(user)
     return (
         <Fragment>
             <CoverImage />

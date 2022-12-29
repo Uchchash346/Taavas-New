@@ -2,11 +2,14 @@ import React, { Fragment, lazy } from 'react';
 import siteLogo from '../../assets/img/logo.png'
 import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 import { AiOutlineUser } from "react-icons/ai";
+import { useSelector } from 'react-redux';
 // import { useSelector } from 'react-redux';
 
 const TopBarMenu = lazy(() => import('../navmenu/TopBarMenu.js'));
 
-const NavMenu = () => {    
+const NavMenu = (props) => {
+    const CartCount = useSelector((state) => state.count);
+
     return (
         <Fragment>
             <div>
@@ -25,14 +28,16 @@ const NavMenu = () => {
                             className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
                             {/* <IoSearchOutline /> */}
                             <IoBagOutline />
-                            <span className='ml-1'>0</span>
+                            <span className='ml-1'>{CartCount}</span>
                         </button>
-                        <button
-                            type="button"
-                            className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
-                            <AiOutlineUser />
-                            <span className='ml-1'>SIGN IN</span>
-                        </button>
+                        <a href="/signin">
+                            <button
+                                type="button"
+                                className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
+                                <AiOutlineUser />
+                                <span className='ml-1'>SIGN IN</span>
+                            </button>
+                        </a>
                         <button
                             type="button"
                             className='search-menu-btn float-right text-left w-20 ml-6 relative top-1/2 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>

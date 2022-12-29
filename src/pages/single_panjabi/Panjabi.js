@@ -59,7 +59,7 @@ const Panjabi = () => {
                         <p className='text-center font-bold'>BDT {location.state.regular_price}</p>
                         {/* Need size guide section */}
                         <button type="" className='relative left-1/2 -translate-x-2/4	border bg-black mt-3 text-white py-2 w-64 uppercase'
-                            onClick={() => handleAddToCart(CartCount)}
+                            onClick={handleAddToCart}
                         >Add to Bag</button>
                         <br />
                         <button type="" className='relative left-1/2 -translate-x-2/4 border mt-3 text-black py-2 w-64 uppercase'>Find In Store</button>
@@ -109,7 +109,7 @@ const Panjabi = () => {
                                 {location.state.material.map((singleMaterial) => (
                                     <li>{singleMaterial}</li>
                                 ))}
-                            </ul>
+                            </ul> 
                         </div>
                         <div className='material-section pt-5'>
                             <h5 className='font-bold text-xl'>Care</h5>
