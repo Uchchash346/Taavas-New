@@ -242,6 +242,11 @@
 
 /* ==================== 6. New Arrivals End ==================== */
 
-/* ==================== 7. Top bar Menu Start ==================== */
+/* ==================== 7. Sign In Auth Start ==================== */
 
-/* ==================== 7. Top bar Menu End ==================== */
+.firebaseui-title {
+  text-align: center !important;
+  color: #436e8f !important;
+}
+
+/* ==================== 7. Sign In Auth End ==================== */
