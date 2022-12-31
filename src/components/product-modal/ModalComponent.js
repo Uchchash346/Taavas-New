@@ -36,7 +36,7 @@ const ModalComponent = () => {
     return (
         <Fragment>
             <div className='mt-16'>
-                <button onClick={openModal}>Open Modal</button>
+                <button onClick={openModal}>Filters & Sort</button>
                 <Modal
                     isOpen={modalIsOpen}
                     onAfterOpen={afterOpenModal}

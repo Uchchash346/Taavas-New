@@ -20,6 +20,7 @@ const ContactUs = lazy(() => import("./pages/contact_us/Contact.js"));
 const Panjabi = lazy(() => import("./pages/single_panjabi/Panjabi.js"));
 const NewArrival = lazy(() => import("./pages/new_arrival/NewArrival.js"));
 const SignIn = lazy(() => import("./pages/authentication/PhoneAuth.js"));
+const ScrollButton = lazy(() => import("./components/scroll-to-top/ScrollButton.js"))
 
 const App = () => {
   const firebaseConfig = {
@@ -73,6 +74,7 @@ const App = () => {
             } />
           </Routes>
         </BrowserRouter>
+        <ScrollButton />
         <Footer />
       </Fragment>
     </Suspense>

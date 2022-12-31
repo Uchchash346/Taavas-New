@@ -250,3 +250,19 @@
 }
 
 /* ==================== 7. Sign In Auth End ==================== */
+
+/* ==================== 8. Scroll Top Start ==================== */
+
+.scroll-btn {
+  position: fixed;
+  width: 100%;
+  left: 48%;
+  bottom: 70px;
+  height: 10px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: green;
+}
+
+/* ==================== 8. Scroll Top End ==================== */
