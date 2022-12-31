@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { Fragment, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ModalComponent from '../../components/product-modal/ModalComponent';
 
 const PanjabiProducts = () => {
     const [panjabi, setPanjabi] = useState([]);
@@ -13,9 +14,13 @@ const PanjabiProducts = () => {
 
     return (
         <Fragment>
-            <div>
-                <h1 className='text-center pt-16 text-sm'>{panjabi.length} Items</h1>
-                {/* <h1 className='text-end pt-16 text-sm'>Filters & Sort</h1> */}
+            <div className='grid grid-cols-2'>
+                <div className='mx-5'>
+                    <h1 className='text-left mt-16 text-sm'>{panjabi.length} Items</h1>
+                </div>
+                <div className='mx-5 text-right'>
+                    <ModalComponent />
+                </div>
             </div>
             <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
                 {

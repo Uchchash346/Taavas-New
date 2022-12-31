@@ -25,7 +25,7 @@ const NewArrival = () => {
                     <div className='w-2/3'>
                   {
                             images.map((image, idx) => {
-                                if (idx == 2) {
+                                if (idx == 1) {
                                     return <>
                                         <img src={image} alt="" className='w-1/2 p-1 h-auto' />
                                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
@@ -35,7 +35,7 @@ const NewArrival = () => {
                                                 <p className='text-sm text-gray-500 leading-10'><span className='font-bold text-black'>Composition -</span> Polyester 60%, Polyamide 35%, Wool 5%</p>
                                                 <p className='text-sm text-gray-500 leading-10'><span className='font-bold text-black'>Art. No. -</span> 1074074001</p>
                                             </div>
-                                        </div>
+                    </div>
                                     </>
                                 }else{
                                     return <img src={image} alt="" className='w-1/2 p-1 h-auto'/>
