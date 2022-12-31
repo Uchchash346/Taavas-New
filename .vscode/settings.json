@@ -2,6 +2,8 @@
     "cSpell.words": [
         "ADDCARTDECREMENT",
         "ADDCARTINCREMENT",
-        "ADDCARTRESET"
+        "ADDCARTRESET",
+        "PRICEHIGHTOLOW",
+        "PRICELOWTOHIGH"
     ]
 }
