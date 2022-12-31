@@ -25,10 +25,9 @@ const NewArrival = () => {
                     <div className='w-2/3'>
                   {
                             images.map((image, idx) => {
-                                // console.log(image)
                                 if (idx == 2) {
                                     return <>
-                                        <img src={image} alt="" className='w-1/2 px-1 h-auto' />
+                                        <img src={image} alt="" className='w-1/2 p-1 h-auto' />
                                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
                                             <div className='p-20'>
                                                 <p className=''>Relaxed-fit jumper in a knitted blend containing some wool with a round, rib-trimmed neckline, long sleeves and ribbing at the cuffs and hem.</p>
@@ -39,9 +38,10 @@ const NewArrival = () => {
                                         </div>
                                     </>
                                 }else{
-                                    <img src={image} alt="" className='w-1/2 px-1 h-auto'/>
+                                    return <img src={image} alt="" className='w-1/2 p-1 h-auto'/>
                                 }
-                            })}
+                            })
+                    }
                     </div>
                     <div className='w-1/3 px-10'>
                         <div className='flex flex-row pl-4'>
