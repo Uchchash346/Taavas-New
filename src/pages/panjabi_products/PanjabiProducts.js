@@ -16,8 +16,8 @@ const PanjabiProducts = () => {
     const [sortState, setSortState] = useState("none");
     const sortMethods = {
         none: { method: (a, b) => null },
-        ascending: { method: (a, b) => (a.price > b.price ? 1 : -1) }, //low to high
-        descending: { method: (a, b) => (b.price > a.price ? 1 : -1) } // high to low
+        ascending: { method: (a, b) => (a.price > b.price ? -1 : 1) }, //low to high
+        descending: { method: (a, b) => (a.price > b.price ? 1 : -1) } // high to low
     }
 
 
