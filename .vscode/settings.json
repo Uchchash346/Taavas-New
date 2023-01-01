@@ -3,7 +3,7 @@
         "ADDCARTDECREMENT",
         "ADDCARTINCREMENT",
         "ADDCARTRESET",
-        "PRICEHIGHTOLOW",
-        "PRICELOWTOHIGH"
+        "HIGHTOLOW",
+        "LOWTOHIGH"
     ]
 }

@@ -4,7 +4,7 @@ export const addToCartIncrement = () => {
     return {
         type: ADDCARTINCREMENT
     }
-}
+} 
 
 export const addToCartDecrement = () => {
     return {

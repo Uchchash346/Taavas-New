@@ -22,36 +22,53 @@ const ModalComponent = () => {
 
     // const [displayPage, setDisplayPage] = useState([]);
 
-    let subtitle;
-    const [modalIsOpen, setIsOpen] = React.useState(false);
+    // let subtitle;
+    // const [modalIsOpen, setIsOpen] = React.useState(false);
 
-    function openModal() {
-        setIsOpen(true);
-    }
+    // function openModal() {
+    //     setIsOpen(true);
+    // }
 
-    function afterOpenModal() {
-        subtitle.style.color = '#f00';
-    }
+    // function afterOpenModal() {
+    //     subtitle.style.color = '#f00';
+    // }
 
-    function closeModal() {
-        setIsOpen(false);
-    }
+    // function closeModal() {
+    //     setIsOpen(false);
+    // }
 
-    const [panjabi, setPanjabi] = useState([]);
+    // const [panjabi, setPanjabi] = useState([]);
 
-    useEffect(() => {
-        axios
-            .get("/data/panjabi_products.json")
-            .then((res) => setPanjabi(res.data))
-            .catch((err) => console.log(err))
-    }, [])
+    // useEffect(() => {
+    //     axios
+    //         .get("/data/panjabi_products.json")
+    //         .then((res) => setPanjabi(res.data))
+    //         .catch((err) => console.log(err))
+    // }, [])
 
-    const lowToHigh = (a,b) => {
-        const priceLowToHigh =  a.price - b.price;
-        setPanjabi(priceLowToHigh)
+    // const [data, setData] = useState();
+    // const [sorted, setSortType] = useState('highToLow')
 
-        
-    }
+    // useEffect(() => {
+    //     const sortPrice = type => {
+    //         const types = {
+    //             lowToHigh: 'lowToHigh',
+    //             highToLow: 'highToLow'
+    //         };
+    //         const sortByPrice = types[type];
+    //         const lowToHighPrice = (a, b) => {
+    //             const priceLowToHigh = a.price - b.price;
+    //             setPanjabi(priceLowToHigh)
+    //         }
+    //     }
+    // })
+
+    // const lowToHigh = (a,b) => {
+    //     const priceLowToHigh =  a.price - b.price;
+    //     setPanjabi(priceLowToHigh)        
+    // }
+
+
     // const onChange = (e) => {
     //     const value = e.target.value
 
@@ -91,11 +108,11 @@ const ModalComponent = () => {
                 {
 
                 }
-                <select>
+                {/* <select onChange={(e) => setSortType(e.target.value)}>
                     <option value="default">Default</option>
                     <option value="priceHighToLow">Price - High to Low</option>
-                    <option value="priceLowToHigh" onChange={(e) => lowToHigh(e.target.value)}>Price - Low to High</option>
-                </select>
+                    <option value="lowToHigh">Price - Low to High</option>
+                </select> */}
                 {/* </Modal> */}
                 {/* {
                     displayPage.map((data, index) => {

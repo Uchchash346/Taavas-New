@@ -15,7 +15,7 @@ import { addToCartIncrement } from '../../store/actions/AddToCart';
 
 const Panjabi = () => {
     const location = useLocation()
-    console.log(location)
+    console.log(location) 
 
     const CartCount = useSelector((state) => state.count);
     const dispatch = useDispatch()
