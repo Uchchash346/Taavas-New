@@ -25,18 +25,20 @@ const NewArrival = () => {
                     <div className='w-2/3'>
                   {
                             images.map((image, idx) => {
-                                if (idx == 1) {
-                                    return <>
-                                        <img src={image} alt="" className='w-1/2 p-1 h-auto' />
-                                        <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
-                                            <div className='p-20'>
+                                if (idx === 1) {
+                                    return (
+                                        <div>
+                                            <img src={image} alt="" className='w-1/2 p-1 h-auto' />
+                                            <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
+                                                <div className='p-20'>
                                                 <p className=''>Relaxed-fit jumper in a knitted blend containing some wool with a round, rib-trimmed neckline, long sleeves and ribbing at the cuffs and hem.</p>
                                                 <p className='text-sm text-gray-500 leading-10 pt-5'><span className='font-bold text-black'>Fit -</span> Relaxed fit</p>
                                                 <p className='text-sm text-gray-500 leading-10'><span className='font-bold text-black'>Composition -</span> Polyester 60%, Polyamide 35%, Wool 5%</p>
                                                 <p className='text-sm text-gray-500 leading-10'><span className='font-bold text-black'>Art. No. -</span> 1074074001</p>
                                             </div>
-                    </div>
-                                    </>
+                                        </div>
+                                    </div>
+                                    )
                                 }else{
                                     return <img src={image} alt="" className='w-1/2 p-1 h-auto'/>
                                 }
