@@ -156,6 +156,21 @@
 
 /* ==================== 6. New Arrivals Start ==================== */
 
+/* .single-product-image-section{
+  position: relative;
+}
+
+.single-image{
+  display: block;
+}
+
+.single-image img{
+  display: block;
+} */
+
+/* img{
+  display: flex;
+} */
 .new-arrival {
   background-color: #faf9f8;
 }
@@ -165,7 +180,7 @@
   /* background-color: red; */
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 1350px;
   padding: 0px 60px;
   margin: 50px auto;
@@ -176,10 +191,10 @@
 
 .wrapper img {
   cursor: pointer;
-}
+} */
 
 /* modal */
-.overlay {
+/* .overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -238,7 +253,7 @@
   height: 50px;
   top: 50%;
   z-index: 999;
-}
+} */
 
 /* ==================== 6. New Arrivals End ==================== */
 

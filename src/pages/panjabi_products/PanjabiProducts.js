@@ -34,7 +34,7 @@ const PanjabiProducts = () => {
                         defaultValue={'DEFAULT'}
                         onChange={(e) => setSortState(e.target.value)}
                     >
-                        <option value="DEFAULT" >None</option>
+                        <option value="DEFAULT" >Filter by Price</option>
                         <option value="descending">Price - High to Low</option>
                         <option value="ascending">Price - Low to High</option>
                     </select>
