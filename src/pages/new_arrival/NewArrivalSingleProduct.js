@@ -39,16 +39,18 @@ const NewArrivalSingleProduct = () => {
             />}
             <div className='mt-16 mx-auto px-5 new-arrival'>
                 <div className='flex'>
-                    {
-                        location.state.dummyImages.map((singleDummyImage, index) => 
-                        (
 
+                    {/* {
+                        location.state.dummyImages.map((singleDummyImage) =>
+                        ( */}
                     <div className='w-2/3'>
                         <div className='flex'>
-                            <img src={singleDummyImage?.[0]} alt="" 
-                            className='w-1/2 px-1 h-auto' 
-                            onClick={() => setIsOpen(true)} />
-                            {/* <img src={location.state.dummyImages[1]} alt="" className='w-1/2 px-1 h-auto' onClick={() => setIsOpen(true)} /> */}
+                            <img src={location.state.dummyImages?.[0]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
+                            <img src={location.state.dummyImages?.[1]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
                         </div>
                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
                             <div className='p-20'>
@@ -59,17 +61,27 @@ const NewArrivalSingleProduct = () => {
                             </div>
                         </div>
                         <div className='flex'>
-                            {/* <img src={location.state.dummyImages[2]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} /> */}
-                            {/* <img src={location.state.dummyImages[3]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} /> */}
+                            <img src={location.state.dummyImages?.[2]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
+                            <img src={location.state.dummyImages?.[3]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
                         </div>
                         <div className='flex'>
-                            {/* <img src={location.state.dummyImages[4]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} /> */}
-                            {/* <img src={location.state.dummyImages[5]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} /> */}
+                            <img src={location.state.dummyImages?.[4]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
+                            <img src={location.state.dummyImages?.[5]} alt="gg"
+                                className='w-1/2 px-1 h-auto'
+                                onClick={() => setIsOpen(true)} />
                         </div>
-                        {/* <img src={location.state.dummyImages[6]} alt="" className='w-1/2 p-1 h-auto block mx-auto' onClick={() => setIsOpen(true)} /> */}
+                        <img src={location.state.dummyImages?.[6]} alt="gg"
+                            className='w-1/2 px-1 h-auto'
+                            onClick={() => setIsOpen(true)} />
                     </div>
-                         ))
-                    }
+                    {/* ))
+                    } */}
                     <div className='w-1/3'>
                         <div>
                             <p className='text-center'>{location.state.product_title}</p>

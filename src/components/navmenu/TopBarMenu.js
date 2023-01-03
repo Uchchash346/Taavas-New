@@ -20,13 +20,13 @@ const TopBarMenu = () => {
                             <button type="" className='cursor-pointer text-sm'>Clothing</button>
                         </a>
                     </li>
-                    <li className='flex justify-center px-2.5 font-bold pt-5 dropdown'>
+                    {/* <li className='flex justify-center px-2.5 font-bold pt-5 dropdown'>
                         <button type=""
                             className='cursor-pointer text-sm'
                         >Footwear1
                         </button>
                         
-                    </li>
+                    </li> */}
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
                         <button type="" className='cursor-pointer text-sm'>Footwear</button>
                     </li>
@@ -37,7 +37,7 @@ const TopBarMenu = () => {
                         <button type="" className='cursor-pointer text-sm'>Sale</button>
                     </li>
 
-    
+
                 </ul>
             </div>
         </Fragment>
