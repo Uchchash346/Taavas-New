@@ -20,7 +20,6 @@ const NewArrivalAllPanjabis = () => {
         descending: { method: (a, b) => (a.price > b.price ? 1 : -1) } // high to low
     }
 
-
     return (
         <Fragment>
             <div className='grid grid-cols-2'>

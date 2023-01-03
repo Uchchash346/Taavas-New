@@ -36,20 +36,19 @@ const NewArrivalSingleProduct = () => {
                 onCloseRequest={() => setIsOpen(false)}
                 onMovePrevRequest={() => setImgIndex((imgIndex + location.state.dummyImages.length - 1) % location.state.dummyImages.length)}
                 onMoveNextRequest={() => setImgIndex((imgIndex + 1) % location.state.dummyImages.length)}
+            // className="lg:max-w-full md:max-w-full sm:max-w-1/2"
             />}
             <div className='mt-16 mx-auto px-5 new-arrival'>
                 <div className='flex'>
-
-                    {/* {
-                        location.state.dummyImages.map((singleDummyImage) =>
-                        ( */}
                     <div className='w-2/3'>
                         <div className='flex'>
-                            <img src={location.state.dummyImages?.[0]} alt="gg"
-                                className='w-1/2 px-1 h-auto'
+                            <img
+                                src={location.state.dummyImages?.[0]} alt="gg"
+                                className='lg:w-1/2 md:w-1/2 sm:w-full px-1 h-auto lg:px-1 md:px-1 sm:px-0'
                                 onClick={() => setIsOpen(true)} />
-                            <img src={location.state.dummyImages?.[1]} alt="gg"
-                                className='w-1/2 px-1 h-auto'
+                            <img
+                                src={location.state.dummyImages?.[1]} alt="gg"
+                                className='lg:w-1/2 md:w-1/2 sm:w-full px-1 h-auto lg:px-1 md:px-1 sm:px-0'
                                 onClick={() => setIsOpen(true)} />
                         </div>
                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
@@ -80,8 +79,6 @@ const NewArrivalSingleProduct = () => {
                             className='w-1/2 px-1 h-auto'
                             onClick={() => setIsOpen(true)} />
                     </div>
-                    {/* ))
-                    } */}
                     <div className='w-1/3'>
                         <div>
                             <p className='text-center'>{location.state.product_title}</p>

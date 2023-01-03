@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const TopBarMenu = () => {
     return (
         <Fragment>
-            <div className='top-bar-menu w-full h-auto bg-transparent overflow-y-hidden z-10 block'>
+         <div className='top-bar-menu w-full h-auto bg-transparent overflow-y-hidden z-10 block' id="navbar-solid-bg">
                 <ul className='menu justify-center h-full flex-wrap flex-row p-0 m-0 relative list-none flex'>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
                         <a href="/">
