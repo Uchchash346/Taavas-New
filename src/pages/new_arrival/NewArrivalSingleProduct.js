@@ -45,9 +45,9 @@ const NewArrivalSingleProduct = () => {
 
                     <div className='w-2/3'>
                         <div className='flex'>
-                            {/* <img src={singleDummyImage?.[0]} alt="" 
+                            <img src={singleDummyImage?.[0]} alt="" 
                             className='w-1/2 px-1 h-auto' 
-                            onClick={() => setIsOpen(true)} /> */}
+                            onClick={() => setIsOpen(true)} />
                             {/* <img src={location.state.dummyImages[1]} alt="" className='w-1/2 px-1 h-auto' onClick={() => setIsOpen(true)} /> */}
                         </div>
                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
