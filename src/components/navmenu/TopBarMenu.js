@@ -11,7 +11,7 @@ const TopBarMenu = () => {
                         </a>
                     </li>
                     <li className='flex justify-center px-2.5 font-bold pt-5'>
-                        <a href="/new-arrival">
+                        <a href="/all-new-panjabis">
                             <button type="" className='cursor-pointer text-sm'> New Arrivals</button>
                         </a>
                     </li>

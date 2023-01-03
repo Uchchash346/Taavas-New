@@ -6,6 +6,7 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
 const NewArrival = () => {
+
     const images = [
          "https://i.ibb.co/94VNyt3/im1.jpg" ,
          "https://i.ibb.co/Yp2FF2M/im2.webp" ,
@@ -53,7 +54,7 @@ const NewArrival = () => {
                         <img src={images[4]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} />
                         <img src={images[5]} alt="" className='w-1/2 p-1 h-auto' onClick={() => setIsOpen(true)} />
                     </div>
-                    <img src={images[6]} alt="" className='w-1/2 p-1 h-auto block mx-auto' onClick={() => setIsOpen(true)} />
+                    <img src={images[6]} alt="" className='w-1/2 p-1 h-auto block mx-auto' onClick={() => setIsOpen(true)}  />
                 </div>
                 <div className='w-1/3 px-10'>
                     <div className='flex flex-row pl-4'>

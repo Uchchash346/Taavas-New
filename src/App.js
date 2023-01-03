@@ -21,6 +21,8 @@ const Panjabi = lazy(() => import("./pages/single_panjabi/Panjabi.js"));
 const NewArrival = lazy(() => import("./pages/new_arrival/NewArrival.js"));
 const SignIn = lazy(() => import("./pages/authentication/PhoneAuth.js"));
 const ScrollButton = lazy(() => import("./components/scroll-to-top/ScrollButton.js"))
+const NewArrivalAllPanjabis = lazy(() => import("./pages/new_arrival/NewArrivalAllPanjabis.js"))
+const NewArrivalSingleProduct = lazy(() => import("./pages/new_arrival/NewArrivalSingleProduct.js"))
 
 const App = () => {
   const firebaseConfig = {
@@ -67,8 +69,12 @@ const App = () => {
             <Route path='/shipping-policy' element={<ShippingPolicy />} />
             <Route path='/payment-policy' element={<PaymentPolicy />} />
             <Route path='/contact-us' element={<ContactUs />} />
-            <Route path='/new-arrival' element={<NewArrival />} />
+            {/* <Route path='/new-arrival' element={<NewArrival />} /> */}
+            {/* <Route path='/panjabis' element={<NewArrival />} /> */}
+            <Route path='/all-new-panjabis' element={<NewArrivalAllPanjabis />} />
+            
             <Route path='/panjabis/:id' element={<Panjabi />} />
+            <Route path='/all-new-panjabis/:id' element={<NewArrivalSingleProduct />} />
             <Route path='/signin' element={
               <SignIn auth={firebase.auth()} />
             } />
