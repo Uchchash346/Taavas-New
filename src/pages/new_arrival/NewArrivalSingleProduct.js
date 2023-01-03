@@ -6,7 +6,7 @@ import facebookIcon from '../../assets/social_icons/facebook.png';
 import messengerIcon from '../../assets/social_icons/messenger.png';
 import whatsappIcon from '../../assets/social_icons/whatsapp.png';
 import twitterIcon from '../../assets/social_icons/twitter.png';
-
+import '../../assets/css/style.css';
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
@@ -16,7 +16,6 @@ const NewArrivalSingleProduct = () => {
 
     const location = useLocation()
     console.log(location)
-
     const CartCount = useSelector((state) => state.count);
     const dispatch = useDispatch()
 
@@ -40,15 +39,15 @@ const NewArrivalSingleProduct = () => {
             />}
             <div className='mt-16 mx-auto px-5 new-arrival'>
                 <div className='flex'>
-                    <div className='w-2/3'>
-                        <div className='flex'>
+                    <div className='w-2/3 order-1'>
+                        <div className='flex single-product-section'>
                             <img
                                 src={location.state.dummyImages?.[0]} alt="gg"
-                                className='lg:w-1/2 md:w-1/2 sm:w-full px-1 h-auto lg:px-1 md:px-1 sm:px-0'
+                                className='w-1/2 px-1 h-auto'
                                 onClick={() => setIsOpen(true)} />
                             <img
                                 src={location.state.dummyImages?.[1]} alt="gg"
-                                className='lg:w-1/2 md:w-1/2 sm:w-full px-1 h-auto lg:px-1 md:px-1 sm:px-0'
+                                className='w-1/2 px-1 h-auto'
                                 onClick={() => setIsOpen(true)} />
                         </div>
                         <div className='my-10 border border-none bg-white new-man-product-desc h-auto'>
@@ -79,7 +78,7 @@ const NewArrivalSingleProduct = () => {
                             className='w-1/2 px-1 h-auto'
                             onClick={() => setIsOpen(true)} />
                     </div>
-                    <div className='w-1/3'>
+                    <div className='w-1/3 order-2'>
                         <div>
                             <p className='text-center'>{location.state.product_title}</p>
                             <p className='text-center text-gray-400'>{location.state.code}</p>
