@@ -39,7 +39,7 @@ const NewArrivalAllPanjabis = () => {
                     </select>
                 </div>
             </div>
-            <div className="grid grid-cols-5 gap-2 pt-3 pb-5 mx-5">
+            <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-2 pt-3 pb-5 mx-5">
                 {
                     panjabi
                         .sort(sortMethods[sortState].method)
@@ -54,9 +54,9 @@ const NewArrivalAllPanjabis = () => {
                                             onMouseEnter={(e) => e.target.src = data.images[1]}
                                             onMouseLeave={(e) => e.target.src = data.images[0]}
                                             alt="" />
-                                        <h1 className='text-left'><a href="/panjabis">{data.product_title}</a></h1>
-                                        <p className='text-inherit font-semibold'>Product Code: {data.code}</p>
-                                        <p>BDT: {data.regular_price}</p>
+                                        <h1 className='lg:text-left md:text-left text-center'><a href="/panjabis">{data.product_title}</a></h1>
+                                        <p className='text-inherit font-semibold lg:text-left md:text-left text-center'>Product Code: {data.code}</p>
+                                        <p className='lg:text-left md:text-left text-center'>BDT: {data.regular_price}</p>
                                     </Link>
                                 </div>
                             )
