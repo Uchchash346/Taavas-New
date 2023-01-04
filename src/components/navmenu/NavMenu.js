@@ -34,7 +34,7 @@ const NavMenu = (props) => {
                         <a href="/signin">
                             <button
                                 type="button"
-                                className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center btn-search'>
+                                className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
                                 <AiOutlineUser />
                                 <span className='ml-1'>SIGN IN</span>
                             </button>
