@@ -3,6 +3,7 @@ import siteLogo from '../../assets/img/logo.png'
 import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 import { AiOutlineUser } from "react-icons/ai";
 import { useSelector } from 'react-redux';
+import '../../assets/css/style.css'
 // import { useSelector } from 'react-redux';
 
 const TopBarMenu = lazy(() => import('../navmenu/TopBarMenu.js'));
@@ -33,7 +34,7 @@ const NavMenu = (props) => {
                         <a href="/signin">
                             <button
                                 type="button"
-                                className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
+                                className='user-menu-btn float-right text-left w-20 ml-6 relative bg-transparent cursor-pointer -translate-x-1/2 flex items-center btn-search'>
                                 <AiOutlineUser />
                                 <span className='ml-1'>SIGN IN</span>
                             </button>
