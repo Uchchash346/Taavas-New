@@ -284,6 +284,26 @@
 
 /* ==================== 8. New Arrival Single Product Start ==================== */
 @media only screen and (max-width: 600px) {
-  
+  /* .new-arrival{
+    display: grid;
+  } */
+  /* .first-section {
+    order: 1;
+  }
+  .second-section {
+    order: 2;
+  }
+  .third-section {
+    order: 3;
+  }
+  .fourth-section {
+    order: 4;
+  }
+  .fifth-section {
+    order: 5;
+  }
+  .sixth-section {
+    order: 6;
+  } */
 }
 /* ==================== 8. New Arrival Single Product End ==================== */
