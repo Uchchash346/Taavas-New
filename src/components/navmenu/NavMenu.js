@@ -4,12 +4,22 @@ import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 import { AiOutlineUser } from "react-icons/ai";
 import { useSelector } from 'react-redux';
 import '../../assets/css/style.css'
-// import { useSelector } from 'react-redux';
+
+// Drawer
+import Drawer from 'react-modern-drawer'
+import 'react-modern-drawer/dist/index.css'
 
 const TopBarMenu = lazy(() => import('../navmenu/TopBarMenu.js'));
+const CartDrawer = lazy(() => import('../../components/cart_drawer/CartDrawer.js'));
 
 const NavMenu = (props) => {
     const CartCount = useSelector((state) => state.count);
+
+    // Drawer
+    const [isOpen, setIsOpen] = React.useState(false)
+    const toggleDrawer = () => {
+        setIsOpen((prevState) => !prevState)
+    }
 
     return (
         <Fragment>
@@ -26,11 +36,24 @@ const NavMenu = (props) => {
                         {/* cart button */}
                         <button
                             type="button"
-                            className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'>
+                            className='shopping-cart-btn float-right text-left w-20 ml-6 bg-transparent cursor-pointer -translate-x-1/2 flex items-center'
+                            onClick={toggleDrawer}
+                        >
                             {/* <IoSearchOutline /> */}
                             <IoBagOutline />
                             <span className='ml-1'>{CartCount}</span>
                         </button>
+                        <Drawer
+                            open={isOpen}
+                            onClose={toggleDrawer}
+                            direction='right'
+                            className='bla bla bla'
+                            size={450}
+                        >
+                            <>
+                                <CartDrawer />
+                            </>
+                        </Drawer>
                         <a href="/signin">
                             <button
                                 type="button"
